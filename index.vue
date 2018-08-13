@@ -14,8 +14,8 @@
         > <i class="v-input-number-icon"></i> </a>
     </div>
 
-    <input type="text" 
-      :maxlength="maxlength" 
+    <input type="text"
+      :maxlength="maxlength"
       autocomplete="off"
       :placeholder="placeholder"
       :class="inputclass"
@@ -144,17 +144,19 @@ export default {
         return
       }
 
-      if (this.quantity.toString().length === 0) {
-        this.quantity = this.oldValue
-        return
-      }
-
       if (this.quantity < this.min) {
         this.quantity = this.min
+        return
       }
 
       if (this.quantity > this.max) {
         this.quantity = this.max
+        return
+      }
+
+      if (this.quantity.toString().length === 0) {
+        this.quantity = this.oldValue
+        return
       }
     },
 
