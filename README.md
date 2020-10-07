@@ -1,4 +1,11 @@
-# vue-input-number [![npm](https://img.shields.io/npm/v/vue-input-number.svg)](https://www.npmjs.com/package/vue-input-number) [![npm](https://img.shields.io/npm/dt/vue-input-number.svg)](https://www.npmjs.com/package/vue-input-number) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# vue-input-number
+
+#### DataCamp fork status
+
+2020-10-07: Active use in [enterprise-frontend](https://github.com/datacamp-engineering/enterprise-frontend) — maintained by [ee-eng](https://github.com/orgs/datacamp-engineering/teams/enterprise).
+<hr>
+
+[![npm](https://img.shields.io/npm/v/vue-input-number.svg)](https://www.npmjs.com/package/vue-input-number) [![npm](https://img.shields.io/npm/dt/vue-input-number.svg)](https://www.npmjs.com/package/vue-input-number) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 > A custom input number component for [Vue.js 2](https://vuejs.org/).
 
